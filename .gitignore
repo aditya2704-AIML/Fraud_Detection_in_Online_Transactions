@@ -1,0 +1,15 @@
+# Jupyter & Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated runtime artifacts & serialized models
+paysphere_results/
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
