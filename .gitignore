@@ -7,8 +7,8 @@ venv/
 .env
 
 # Generated runtime artifacts & serialized models
-paysphere_results/
-*.joblib
+paysphere_results/*
+!paysphere_results/model_bundle.joblib
 
 # OS files
 .DS_Store
